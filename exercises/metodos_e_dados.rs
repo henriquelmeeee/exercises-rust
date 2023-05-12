@@ -1,7 +1,5 @@
 trait Fala {
-    
     fn falar(&self, stri: String);
-    
 }
 
 struct Pessoa {
