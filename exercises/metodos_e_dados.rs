@@ -9,7 +9,7 @@ struct Pessoa {
 
 impl Fala for Pessoa {
     fn falar(&self, stri: String) {
-        println!("{} {}", stri, self);
+        println!("{} {}", stri, self.nome);
     }
 }
 
